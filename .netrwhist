@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/tylebrow/code/snakes/packages'
+let g:netrw_dirhist_2='/Users/tylebrow/code/config-pipeline/utils'
+let g:netrw_dirhist_1='/Users/tylebrow/code/snakes/bootstrap/dist'
