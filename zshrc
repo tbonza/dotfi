@@ -3,7 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/tylebrow/.oh-my-zsh"
-export PATH="/Users/tylebrow/.cargo/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -99,3 +98,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export VAULT_ADDR='https://vault.aws.gartner.com'
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
