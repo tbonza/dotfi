@@ -1,3 +1,3 @@
 # Dot files
 
-Configuration files for vim, etc. You can clone this into an empty `~/.vim/`.
+Configuration files for vim and zsh. You can clone this into an empty `~/.vim/`.
