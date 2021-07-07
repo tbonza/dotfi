@@ -33,7 +33,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'lervag/vimtex'
-Plug 'hashivim/vim-terraform'
 Plug 'cespare/vim-toml'
 
 " Initialize plugin system
