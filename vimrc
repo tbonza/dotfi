@@ -19,11 +19,11 @@ set shortmess+=I " disable startup message
 set nu " number lines
 set rnu " relative line numbering
 set hls " highlight search
-" use 4 spaces instead of tabs during formatting
+" use 2 spaces instead of tabs during formatting
 set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 "------------------
 " Plugins
