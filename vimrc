@@ -19,11 +19,16 @@ set shortmess+=I " disable startup message
 set nu " number lines
 set rnu " relative line numbering
 set hls " highlight search
-" use 4 spaces instead of tabs during formatting
-set expandtab
+
+" by default, the indent is 4 spaces.
 set tabstop=4
 set shiftwidth=4
-set softtabstop=4
+set softtabstop=0
+
+" use 2 spaces for cpp
+autocmd FileType cpp setlocal ts=2 sw=2 sts=0 expandtab
+
+
 
 "------------------
 " Plugins
