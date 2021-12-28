@@ -7,7 +7,7 @@ filetype off                  " required
 syntax on
 set showmatch
 
-colo default
+colo ron
 
 filetype plugin indent on " enable file type detection
 set autoindent
