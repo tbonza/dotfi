@@ -101,3 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/opt/homebrew/bin":$PATH
 export PATH="/usr/local/texlive/2021/bin/universal-darwin/":$PATH
+
+export JAVA_HOME="/usr/bin/java"
+
+# opam configuration
+[[ ! -r /Users/tylerbrown/.opam/opam-init/init.zsh ]] || source /Users/tylerbrown/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null

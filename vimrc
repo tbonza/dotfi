@@ -25,6 +25,15 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=0
 
+" column should not be more than 80 characters.
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
+
+"--------------------------
+" Language specific config
+"--------------------------
+autocmd BufNewFile,BufRead *.tex set spell spelllang=en_us
+
 "------------------
 " Plugins
 "------------------
