@@ -26,7 +26,7 @@ set shiftwidth=2
 set softtabstop=0
 
 " column should not be more than 80 characters.
-highlight ColorColumn ctermbg=gray
+highlight ColorColumn ctermbg=green
 set colorcolumn=80
 
 "--------------------------
