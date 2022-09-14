@@ -93,15 +93,6 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-export VAULT_ADDR='https://vault.aws.gartner.com'
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
-export OPENSSL_ROOT_DIR=`brew --prefix openssl`
-export DAWSON_URL="https://gartner365.webhook.office.com/webhookb2/a0e79691-12ce-4352-8f6c-87f1d73e6ac7@971f0e31-00d6-4e42-b8e0-47b342bc4455/IncomingWebhook/d660cd5fbdf9465b9a3f31ffc540596a/37e17e41-a11a-4630-922e-a89e0f97585e"
-export CEDAR_URL="https://gartner365.webhook.office.com/webhookb2/218fce52-deb3-46da-8fd7-212540557fa4@971f0e31-00d6-4e42-b8e0-47b342bc4455/IncomingWebhook/c2ca8006b7eb40e094f6f1ea636cb797/37e17e41-a11a-4630-922e-a89e0f97585e"
 
 # opam configuration
 [[ ! -r /Users/tylebrow/.opam/opam-init/init.zsh ]] || source /Users/tylebrow/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
