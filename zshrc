@@ -76,6 +76,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+unalias -m 'g'
+unalias -m 'gsi'
+
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -101,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/opt/homebrew/bin":$PATH
 export PATH="/usr/local/texlive/2021/bin/universal-darwin/":$PATH
+export PATH="/usr/local/Gambit/bin":$PATH
 
 export JAVA_HOME="/usr/bin/java"
 
