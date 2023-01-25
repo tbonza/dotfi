@@ -7,7 +7,7 @@ filetype off                  " required
 syntax on
 set showmatch
 
-colo ron
+colo torte
 
 filetype plugin indent on " enable file type detection
 set autoindent
@@ -44,6 +44,7 @@ Plug 'JuliaEditorSupport/julia-vim'
 Plug 'lervag/vimtex'
 Plug 'cespare/vim-toml'
 Plug 'chr4/nginx.vim'
+Plug 'benknoble/vim-racket'
 
 " Initialize plugin system
 call plug#end()
