@@ -40,7 +40,7 @@ autocmd BufNewFile,BufRead *.tex set spell spelllang=en_us
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'JuliaEditorSupport/julia-vim'
+Plug 'rust-lang/rust.vim'
 Plug 'lervag/vimtex'
 Plug 'cespare/vim-toml'
 Plug 'chr4/nginx.vim'
