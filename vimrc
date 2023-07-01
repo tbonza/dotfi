@@ -48,3 +48,5 @@ Plug 'benknoble/vim-racket'
 
 " Initialize plugin system
 call plug#end()
+
+set re=2
