@@ -7,7 +7,7 @@ filetype off                  " required
 syntax on
 set showmatch
 
-colo torte
+colorscheme desert
 
 filetype plugin indent on " enable file type detection
 set autoindent
@@ -26,7 +26,7 @@ set shiftwidth=2
 set softtabstop=0
 
 " column should not be more than 80 characters.
-highlight ColorColumn ctermbg=green
+highlight ColorColumn ctermbg=grey
 set colorcolumn=80
 
 "--------------------------

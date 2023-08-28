@@ -112,4 +112,5 @@ export JAVA_HOME="/usr/bin/java"
 # opam configuration
 [[ ! -r /Users/tylerbrown/.opam/opam-init/init.zsh ]] || source /Users/tylerbrown/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
-
+# postgres
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
