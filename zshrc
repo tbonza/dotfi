@@ -105,12 +105,21 @@ unalias -m 'gsi'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/opt/homebrew/bin":$PATH
 export PATH="/usr/local/texlive/2021/bin/universal-darwin/":$PATH
-export PATH="/usr/local/Gambit/bin":$PATH
-
-export JAVA_HOME="/usr/bin/java"
 
 # opam configuration
 [[ ! -r /Users/tylerbrown/.opam/opam-init/init.zsh ]] || source /Users/tylerbrown/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
-# postgres
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# pnpm
+export PNPM_HOME="/Users/tylerbrown/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

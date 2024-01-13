@@ -33,6 +33,8 @@ set colorcolumn=80
 " Language specific config
 "--------------------------
 autocmd BufNewFile,BufRead *.tex set spell spelllang=en_us
+autocmd BufNewFile,BufRead *.atd set syntax=ocaml
+
 
 "------------------
 " Plugins
