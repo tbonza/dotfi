@@ -7,7 +7,7 @@ filetype off                  " required
 syntax on
 set showmatch
 
-colo desert 
+colo default 
 
 filetype plugin indent on " enable file type detection
 set autoindent
@@ -32,3 +32,13 @@ autocmd FileType py setlocal ts=4 sw=4 sts=0 expandtab
 " column should not be more than 80 characters.
 highlight ColorColumn ctermbg=grey
 set colorcolumn=80
+
+"----------------------
+" Package Manager
+"----------------------
+
+call plug#begin()
+
+Plug 'lervag/vimtex'
+
+call plug#end()
