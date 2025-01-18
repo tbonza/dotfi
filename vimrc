@@ -7,7 +7,7 @@ filetype off                  " required
 syntax on
 set showmatch
 
-colo default 
+colo habamax
 
 filetype plugin indent on " enable file type detection
 set autoindent

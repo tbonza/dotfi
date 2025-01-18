@@ -10,3 +10,9 @@ eval "$(pyenv init -)"
 # This section can be safely removed at any time if needed.
 [[ ! -r '/Users/tylerbrown/.opam/opam-init/init.zsh' ]] || source '/Users/tylerbrown/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+export PKG_CONFIG_PATH="/opt/homebrew/opt/libxml2/lib/pkgconfig"
+
+ELAN_ROOT="$HOME/.elan"
+export PATH="$ELAN_ROOT/bin:$PATH"
+
