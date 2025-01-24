@@ -39,6 +39,4 @@ set colorcolumn=80
 
 call plug#begin()
 
-Plug 'lervag/vimtex'
-
 call plug#end()
